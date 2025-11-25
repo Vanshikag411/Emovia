@@ -118,8 +118,9 @@ const handleOutgoingMessage = (e) => {
 
 // Adjust input field height dynamically
 messageInput.addEventListener("input", () => {
-  messageInput.style.height = ${initialInputHeight}px;
-  messageInput.style.height = ${messageInput.scrollHeight}px;
+  messageInput.style.height = `${initialInputHeight}px`;
+messageInput.style.height = `${messageInput.scrollHeight}px`;
+
   document.querySelector(".chat-form").style.borderRadius = messageInput.scrollHeight > initialInputHeight ? "15px" : "32px";
 });
 
