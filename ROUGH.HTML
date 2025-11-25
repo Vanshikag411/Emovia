@@ -1,0 +1,162 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black;">
+    <div class="layer" data-v-b41141ae="">
+        <div class="label" data-v-b41141ae="" style="opacity: 1; visibility: inherit;"> Human </div><svg
+            viewBox="0 0 293 293" fill="none" xmlns="http://www.w3.org/2000/svg" class="connected-svg"
+            data-v-b41141ae="" style="opacity: 1; visibility: inherit;">
+            <path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                d="m219.07.5c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86,32.62,72.86,72.86-32.62,72.86-72.86,72.86-72.86-32.62-72.86-72.86-32.62-72.86-72.86-72.86c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86-32.62-72.86-72.86-72.86S.5,113.6.5,73.36,33.12.5,73.36.5s72.86,32.62,72.86,72.86,32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86c0-40.24-32.62-72.86-72.86-72.86"
+                style="stroke-dashoffset: -664.808; stroke-dasharray: 366.285px, 1465.24px;"></path>
+            <path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                d="m219.07.5c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86,32.62,72.86,72.86-32.62,72.86-72.86,72.86-72.86-32.62-72.86-72.86-32.62-72.86-72.86-72.86c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86-32.62-72.86-72.86-72.86S.5,113.6.5,73.36,33.12.5,73.36.5s72.86,32.62,72.86,72.86,32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86c0-40.24-32.62-72.86-72.86-72.86"
+                style="stroke-dashoffset: -664.808; stroke-dasharray: 366.285px, 1465.24px;"></path>
+        </svg><svg viewBox="0 0 672 655" fill="none" xmlns="http://www.w3.org/2000/svg" class="ecosystem-svg"
+            data-v-b41141ae="">
+            <circle cx="336" cy="123" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="458" cy="209" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="549" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="458" cy="453" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="336" cy="532" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="215" cy="453" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="123" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="214" cy="209" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+            <circle cx="335" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle>
+        </svg>
+    </div>
+</body>
+
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layer Component</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .layer {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      z-index: 10;
+    }
+
+    .connected-svg,
+    .ecosystem-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .ecosystem-svg circle {
+      stroke-width: 1;
+      stroke-opacity: 0.7;
+    }
+
+    .connected-svg path {
+      stroke-width: 2;
+      stroke: #fff;
+    }
+
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 366.285;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .connected-svg path {
+      animation: dash 2s linear infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="layer">
+    <div class="label">Human</div>
+    <svg viewBox="0 0 293 293" fill="none" xmlns="http://www.w3.org/2000/svg" class="connected-svg">
+      <path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+        d="m219.07.5c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86,32.62,72.86,72.86-32.62,72.86-72.86,72.86-72.86-32.62-72.86-72.86-32.62-72.86-72.86-72.86c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86-32.62-72.86-72.86-72.86S.5,113.6.5,73.36,33.12.5,73.36.5s72.86,32.62,72.86,72.86,32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86c0-40.24-32.62-72.86-72.86-72.86"
+        style="stroke-dashoffset: -664.808; stroke-dasharray: 366.285px, 1465.24px;"></path>
+    </svg>
+    <svg viewBox="0 0 672 655" fill="none" xmlns="http://www.w3.org/2000/svg" class="ecosystem-svg">
+      <circle cx="336" cy="123" r="122" stroke="currentcolor"></circle>
+      <circle cx="458" cy="209" r="122" stroke="currentcolor"></circle>
+      <circle cx="549" cy="328" r="122" stroke="currentcolor"></circle>
+      <circle cx="458" cy="453" r="122" stroke="currentcolor"></circle>
+      <circle cx="336" cy="532" r="122" stroke="currentcolor"></circle>
+      <circle cx="215" cy="453" r="122" stroke="currentcolor"></circle>
+      <circle cx="123" cy="328" r="122" stroke="currentcolor"></circle>
+      <circle cx="214" cy="209" r="122" stroke="currentcolor"></circle>
+      <circle cx="335" cy="328" r="122" stroke="currentcolor"></circle>
+    </svg>
+  </div>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<video autoplay muted loop id="background-video">
+  <source src="./webvideo.mp4" type="video/mp4">
+</video>
+<div class="background" data-v-e086a7c9=""><svg viewBox="0 0 96 1332" fill="none" xmlns="http://www.w3.org/2000/svg"
+    class="divider-svg" data-v-e086a7c9="">
+    <path
+      d="M1.00003 1332L1.00006 726.469C1.00007 691.615 18.8257 659.182 48.25 640.5V640.5C77.6744 621.818 95.5 589.385 95.5 554.531L95.5 0"
+      stroke="currentcolor" style="stroke-dashoffset: -164.045; stroke-dasharray: 272.954px, 1091.91px;"></path>
+    <path
+      d="M1.00003 1332L1.00006 726.469C1.00007 691.615 18.8257 659.182 48.25 640.5V640.5C77.6744 621.818 95.5 589.385 95.5 554.531L95.5 0"
+      stroke="currentcolor"></path>
+  </svg></div>
+</body>
+</html>
+ <!-- <figure class="hero-banner" data-reveal="right">
+           <div class="layer" data-v-b41141ae=""><div class="label" data-v-b41141ae="" style="opacity: 1; visibility: inherit;"> Human </div><svg viewBox="0 0 293 293" fill="none" xmlns="http://www.w3.org/2000/svg" class="connected-svg" data-v-b41141ae="" style="opacity: 1; visibility: inherit;"><path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" d="m219.07.5c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86,32.62,72.86,72.86-32.62,72.86-72.86,72.86-72.86-32.62-72.86-72.86-32.62-72.86-72.86-72.86c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86-32.62-72.86-72.86-72.86S.5,113.6.5,73.36,33.12.5,73.36.5s72.86,32.62,72.86,72.86,32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86c0-40.24-32.62-72.86-72.86-72.86" style="stroke-dashoffset: -664.808; stroke-dasharray: 366.285px, 1465.24px;"></path><path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" d="m219.07.5c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86,32.62,72.86,72.86-32.62,72.86-72.86,72.86-72.86-32.62-72.86-72.86-32.62-72.86-72.86-72.86c-40.24,0-72.86,32.62-72.86,72.86s32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86-32.62-72.86-72.86-72.86S.5,113.6.5,73.36,33.12.5,73.36.5s72.86,32.62,72.86,72.86,32.62,72.86,72.86,72.86,72.86-32.62,72.86-72.86c0-40.24-32.62-72.86-72.86-72.86" style="stroke-dashoffset: -664.808; stroke-dasharray: 366.285px, 1465.24px;"></path></svg><svg viewBox="0 0 672 655" fill="none" xmlns="http://www.w3.org/2000/svg" class="ecosystem-svg" data-v-b41141ae=""><circle cx="336" cy="123" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="458" cy="209" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="549" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="458" cy="453" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="336" cy="532" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="215" cy="453" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="123" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="214" cy="209" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle><circle cx="335" cy="328" r="122" stroke="currentcolor" style="opacity: 1; visibility: inherit;"></circle></svg></div>
+          </figure> -->
+          <!-- <div id="particles-js"></div>
+
+          <script src="particles.js"></script> -->

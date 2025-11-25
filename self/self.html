@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Mental Health Quiz</h1>
+    <form id="quizForm">
+      <!-- Stress and Anxiety Section -->
+      <fieldset>
+        <legend>Stress and Anxiety</legend>
+        <label>1. How often do you feel overwhelmed by your responsibilities?</label><br>
+        <input type="radio" name="stress1" value="1"> Rarely
+        <input type="radio" name="stress1" value="2"> Sometimes
+        <input type="radio" name="stress1" value="3"> Often
+        <input type="radio" name="stress1" value="4"> Always
+        <br>
+
+        <label>2. How often do you experience physical symptoms of stress (e.g., headaches, muscle tension)?</label><br>
+        <input type="radio" name="stress2" value="1"> Rarely
+        <input type="radio" name="stress2" value="2"> Sometimes
+        <input type="radio" name="stress2" value="3"> Often
+        <input type="radio" name="stress2" value="4"> Always
+        <br>
+
+        <label>3. Do you often find yourself worrying about things that may or may not happen?</label><br>
+        <input type="radio" name="stress3" value="1"> Rarely
+        <input type="radio" name="stress3" value="2"> Sometimes
+        <input type="radio" name="stress3" value="3"> Often
+        <input type="radio" name="stress3" value="4"> Always
+        <br>
+
+        <label>4. How do you rate your ability to manage stress when it arises?</label><br>
+        <input type="radio" name="stress4" value="1"> Excellent
+        <input type="radio" name="stress4" value="2"> Good
+        <input type="radio" name="stress4" value="3"> Fair
+        <input type="radio" name="stress4" value="4"> Poor
+        <br>
+
+        <label>5. Have you noticed any significant changes in your mood over the past few weeks?</label><br>
+        <input type="radio" name="stress5" value="1"> Yes, significant mood swings
+        <input type="radio" name="stress5" value="2"> Somewhat, mild changes
+        <input type="radio" name="stress5" value="3"> No noticeable changes
+        <br>
+      </fieldset>
+
+      <!-- Depression and Mood Section -->
+      <fieldset>
+        <legend>Depression and Mood</legend>
+        <label>6. How often do you feel sad, down, or hopeless?</label><br>
+        <input type="radio" name="mood1" value="1"> Rarely
+        <input type="radio" name="mood1" value="2"> Sometimes
+        <input type="radio" name="mood1" value="3"> Often
+        <input type="radio" name="mood1" value="4"> Always
+        <br>
+
+        <label>7. Do you find it difficult to enjoy activities that you used to enjoy?</label><br>
+        <input type="radio" name="mood2" value="1"> Rarely
+        <input type="radio" name="mood2" value="2"> Sometimes
+        <input type="radio" name="mood2" value="3"> Often
+        <input type="radio" name="mood2" value="4"> Always
+        <br>
+
+        <label>8. Have you experienced a loss of interest in socializing with others?</label><br>
+        <input type="radio" name="mood3" value="1"> Yes, significantly
+        <input type="radio" name="mood3" value="2"> Sometimes
+        <input type="radio" name="mood3" value="3"> No, I still enjoy socializing
+        <br>
+
+        <label>9. How often do you feel fatigued or low on energy, even after a full night's sleep?</label><br>
+        <input type="radio" name="mood4" value="1"> Rarely
+        <input type="radio" name="mood4" value="2"> Sometimes
+        <input type="radio" name="mood4" value="3"> Often
+        <input type="radio" name="mood4" value="4"> Always
+        <br>
+
+        <label>10. Do you feel that your emotional state is affecting your daily functioning (work, studies, etc.)?</label><br>
+        <input type="radio" name="mood5" value="1"> Rarely
+        <input type="radio" name="mood5" value="2"> Sometimes
+        <input type="radio" name="mood5" value="3"> Often
+        <input type="radio" name="mood5" value="4"> Always
+        <br>
+      </fieldset>
+
+      <!-- Social Support and Relationships Section -->
+      <fieldset>
+        <legend>Social Support and Relationships</legend>
+        <label>11. Do you feel supported by family and friends when you are going through tough times?</label><br>
+        <input type="radio" name="social1" value="1"> Yes, always
+        <input type="radio" name="social1" value="2"> Sometimes
+        <input type="radio" name="social1" value="3"> No, rarely
+        <br>
+
+        <label>12. Do you feel lonely, even when surrounded by others?</label><br>
+        <input type="radio" name="social2" value="1"> Rarely
+        <input type="radio" name="social2" value="2"> Sometimes
+        <input type="radio" name="social2" value="3"> Often
+        <input type="radio" name="social2" value="4"> Always
+        <br>
+
+        <label>13. Do you feel comfortable sharing your thoughts and feelings with others?</label><br>
+        <input type="radio" name="social3" value="1"> Yes, always
+        <input type="radio" name="social3" value="2"> Sometimes
+        <input type="radio" name="social3" value="3"> No, rarely
+        <br>
+
+        <label>14. Have you been able to maintain strong, positive relationships with others in the past year?</label><br>
+        <input type="radio" name="social4" value="1"> Yes, very strong relationships
+        <input type="radio" name="social4" value="2"> Somewhat, there have been ups and downs
+        <input type="radio" name="social4" value="3"> No, relationships have been strained
+        <br>
+      </fieldset>
+
+      <!-- Sleep and Rest Section -->
+      <fieldset>
+        <legend>Sleep and Rest</legend>
+        <label>15. How often do you experience difficulty falling or staying asleep?</label><br>
+        <input type="radio" name="sleep1" value="1"> Rarely
+        <input type="radio" name="sleep1" value="2"> Sometimes
+        <input type="radio" name="sleep1" value="3"> Often
+        <input type="radio" name="sleep1" value="4"> Always
+        <br>
+
+        <label>16. Do you feel rested and rejuvenated after a night’s sleep?</label><br>
+        <input type="radio" name="sleep2" value="1"> Yes, always
+        <input type="radio" name="sleep2" value="2"> Sometimes
+        <input type="radio" name="sleep2" value="3"> No, rarely
+        <br>
+
+        <label>17. How many hours of sleep do you typically get each night?</label><br>
+        <input type="radio" name="sleep3" value="1"> Less than 4 hours
+        <input type="radio" name="sleep3" value="2"> 4-6 hours
+        <input type="radio" name="sleep3" value="3"> 6-8 hours
+        <input type="radio" name="sleep3" value="4"> More than 8 hours
+        <br>
+
+        <label>18. Do you experience any nightmares or disturbing dreams that affect your sleep quality?</label><br>
+        <input type="radio" name="sleep4" value="1"> Rarely
+        <input type="radio" name="sleep4" value="2"> Sometimes
+        <input type="radio" name="sleep4" value="3"> Often
+        <input type="radio" name="sleep4" value="4"> Always
+        <br>
+      </fieldset>
+
+      <!-- Emotional Regulation and Coping Mechanisms Section -->
+      <fieldset>
+        <legend>Emotional Regulation and Coping Mechanisms</legend>
+        <label>19. How often do you feel that you cannot control your emotions, especially in stressful situations?</label><br>
+        <input type="radio" name="coping1" value="1"> Rarely
+        <input type="radio" name="coping1" value="2"> Sometimes
+        <input type="radio" name="coping1" value="3"> Often
+        <input type="radio" name="coping1" value="4"> Always
+        <br>
+
+        <label>20. Do you have healthy coping mechanisms for dealing with stress (e.g., exercise, hobbies, deep breathing)?</label><br>
+        <input type="radio" name="coping2" value="1"> Yes, I use them regularly
+        <input type="radio" name="coping2" value="2"> Sometimes, but I struggle to stick to them
+        <input type="radio" name="coping2" value="3"> No, I don’t have effective coping mechanisms
+        <br>
+
+        <label>21. When something goes wrong in your life, how likely are you to bounce back quickly?</label><br>
+        <input type="radio" name="coping3" value="1"> Very likely
+        <input type="radio" name="coping3" value="2"> Somewhat likely
+        <input type="radio" name="coping3" value="3"> Not very likely
+        <input type="radio" name="coping3" value="4"> Very unlikely
+        <br>
+
+        <label>22. Do you feel like you are able to set and achieve goals that matter to you?</label><br>
+        <input type="radio" name="coping4" value="1"> Yes, always
+        <input type="radio" name="coping4" value="2"> Sometimes, it’s a struggle
+        <input type="radio" name="coping4" value="3"> No, I often give up on goals
+        <br>
+      </fieldset>
+
+      <!-- Overall Mental Health Section -->
+      <fieldset>
+        <legend>Overall Mental Health</legend>
+        <label>23. How satisfied are you with your current mental health and emotional well-being?</label><br>
+        <input type="radio" name="overall1" value="1"> Very satisfied
+        <input type="radio" name="overall1" value="2"> Satisfied
+        <input type="radio" name="overall1" value="3"> Unsatisfied
+        <input type="radio" name="overall1" value="4"> Very unsatisfied
+        <br>
+
+        <label>24. Do you think you need help or support to improve your mental health?</label><br>
+        <input type="radio" name="overall2" value="1"> No, I’m doing fine
+        <input type="radio" name="overall2" value="2"> Maybe, I think I could benefit from some support
+        <input type="radio" name="overall2" value="3"> Yes, I believe I need help
+        <br>
+
+        <label>25. Have you ever sought professional help (therapy, counseling, etc.) for mental health concerns?</label><br>
+        <input type="radio" name="overall3" value="1"> Yes, currently in therapy/counseling
+        <input type="radio" name="overall3" value="2"> Yes, in the past
+        <input type="radio" name="overall3" value="3"> No, but I would consider it
+        <input type="radio" name="overall3" value="4"> No, I haven’t considered it
+        <br>
+      </fieldset>
+
+      <!-- Self-Esteem and Self-Perception Section -->
+      <fieldset>
+        <legend>Self-Esteem and Self-Perception</legend>
+        <label>26. How often do you feel confident in your abilities and decisions?</label><br>
+        <input type="radio" name="self1" value="1"> Always
+        <input type="radio" name="self1" value="2"> Most of the time
+        <input type="radio" name="self1" value="3"> Sometimes
+        <input type="radio" name="self1" value="4"> Rarely
+        <br>
+
+        <label>27. Do you have a positive outlook on the future?</label><br>
+        <input type="radio" name="self2" value="1"> Yes, always
+        <input type="radio" name="self2" value="2"> Sometimes
+        <input type="radio" name="self2" value="3"> Not often
+        <input type="radio" name="self2" value="4"> No, never
+        <br>
+
+        <label>28. Do you often feel like you are not good enough or doubt your worth?</label><br>
+        <input type="radio" name="self3" value="1"> Rarely
+        <input type="radio" name="self3" value="2"> Sometimes
+        <input type="radio" name="self3" value="3"> Often
+        <input type="radio" name="self3" value="4"> Always
+        <br>
+
+        <label>29. How satisfied are you with your physical health?</label><br>
+        <input type="radio" name="self4" value="1"> Very satisfied
+        <input type="radio" name="self4" value="2"> Satisfied
+        <input type="radio" name="self4" value="3"> Unsatisfied
+        <input type="radio" name="self4" value="4"> Very unsatisfied
+        <br>
+
+        <label>30. How often do you feel proud of your achievements and progress in life?</label><br>
+        <input type="radio" name="self5" value="1"> Always
+        <input type="radio" name="self5" value="2"> Sometimes
+        <input type="radio" name="self5" value="3"> Rarely
+        <input type="radio" name="self5" value="4"> Never
+        <br>
+      </fieldset>
+
+      <button type="button" onclick="calculateResults()">Submit Quiz</button>
+    </form>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
